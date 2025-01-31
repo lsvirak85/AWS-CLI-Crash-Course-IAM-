@@ -32,7 +32,7 @@ sudo aws sts get-caller-identity --profile s3user
 <p align="center"><i><b>Using STS GetCallerIdentity to Check Profiles</b></i></p>
 
 > **_NOTE:_**
-If you got any errors running either of these commands there is likely an issue with the access keys you setup. Review Lab 1 to ensure you correctly setup both accounts. Also, keep in mind that profiles are case-sensitive. Make sure when you are specifying each profile that you are using the correct casing.
+If you got any errors running either of these commands there is likely an issue with the access keys you setup. Also, keep in mind that profiles are case-sensitive. Make sure when you are specifying each profile that you are using the correct casing.
 
 2. If the profiles both appear to be setup correctly we can proceed to account enumeration commands. Let's start by enumerating Identity and Access Management resources. The below `list-users` command will list any IAM users within an AWS account. Try it with both the AWSCloudAdmin and s3user accounts. 
 
