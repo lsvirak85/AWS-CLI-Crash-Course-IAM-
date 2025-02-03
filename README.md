@@ -11,7 +11,7 @@ AWS CLI Crash Course to enumerate IAM and S3 and securely deploy an S3 bucket
 
 ## Lab Setup
 
-For this lab, you will need to have completed the previous lab to have the required access keys for interacting with the AWS command line.
+For this lab, you will need to have completed the previous lab (Cloud Security IAM Lab) to have the required access keys for interacting with the AWS command line.
 
 
 ## Lab - Step by Step Instructions
